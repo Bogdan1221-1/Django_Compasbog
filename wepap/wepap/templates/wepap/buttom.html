@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang='en' class=''>
+
+<head>
+
+  <meta charset='UTF-8'>
+  <title>CodePen Demo</title>
+
+  <meta name="robots" content="noindex">
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+  <link rel="mask-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+  <link rel="canonical" href="https://codepen.io/visnuravichandran/pen/GRZQVdP">
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&amp;display=swap">
+
+  <style class="INLINE_PEN_STYLESHEET_ID">
+    /* ***** Colors - Start ***** */
+/* ***** Colors - End ***** */
+/* ***** Global Styles - Start ***** */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fdb813;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ***** Global Styles - End ***** */
+/* ***** Specific Styles - Start ***** */
+.container {
+  height: 100vh;
+}
+
+.switch {
+  width: 60px;
+  height: 110px;
+  padding-top: 2px;
+  background-color: #514e4b;
+  border-radius: 40px;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.toggle-button {
+  transform: scale(0.8);
+  transform-origin: center center;
+}
+
+.toggle {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  margin: 12px;
+  margin-top: 12px;
+  background-color: #fdb813;
+  border-radius: 50%;
+}
+
+.moon-mask {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  margin: -74px 0 0 34px;
+  background-color: #514e4b;
+  border-radius: 50%;
+}
+
+.circles-wrapper .circle {
+  position: absolute;
+  width: 4px;
+  height: 8px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.circles-wrapper .circle:first-child {
+  margin: -57px 0 0 27px;
+}
+.circles-wrapper .circle:nth-child(2) {
+  margin: -9px 0 0 28px;
+}
+.circles-wrapper .circle:nth-child(3) {
+  margin: -32px 0 0 51px;
+  transform: rotate(90deg);
+}
+.circles-wrapper .circle:nth-child(4) {
+  margin: -33px 0 0 4px;
+  transform: rotate(90deg);
+}
+.circles-wrapper .circle:nth-child(5) {
+  margin: -14px 0 0 10px;
+  transform: rotate(45deg);
+}
+.circles-wrapper .circle:nth-child(6) {
+  margin: -14px 0 0 45px;
+  transform: rotate(320deg);
+}
+.circles-wrapper .circle:nth-child(7) {
+  margin: -50px 0 0 10px;
+  transform: rotate(135deg);
+}
+.circles-wrapper .circle:nth-child(8) {
+  margin: -50px 0 0 45px;
+  transform: rotate(235deg);
+}
+
+.text p {
+  margin-left: 5px;
+  font-size: 55px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 70px;
+}
+
+/* ***** Specific Styles - End ***** */
+  </style>
+
+
+<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeConsoleRunner-7549a40147ccd0ba0a6b5373d87e770e49bb4689f1c2dc30cccc7463f207f997.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-5e03f34e38152f20eb79c96b0b89c2d99c5085e9ae9386dc71e2f0b3c30bf513.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRuntimeErrors-4f205f2c14e769b448bcf477de2938c681660d5038bc464e3700256713ebe261.js"></script>
+</head>
+
+<body>
+  <div class="container">
+  <div class="switch">
+    <div class="toggle-button">
+      <div class="toggle"></div>
+      <div class="moon-mask"></div>
+      <div class="circles-wrapper">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+  <div class="text">
+    <p>n</p>
+    <p>ff</p>
+  </div>
+</div>
+
+<!-- Social Icons -->
+<div class="social-icons">
+  <a href="https://twitter.com/VisnuRavichand1" target="_blank">
+    <img src="https://img.icons8.com/fluent/30/000000/twitter.png" />
+  </a>
+  <a href="https://dribbble.com/visnuravichandran" target="_blank">
+    <img src="https://img.icons8.com/office/30/000000/dribbble.png" />
+  </a>
+</div>
+
+<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script  src="https://cdpn.io/cpe/boomboom/pen.js?key=pen.js-a05e3164-a355-b7f2-8c8b-b0f48fdd5735" crossorigin></script>
+</body>
+
+</html>
